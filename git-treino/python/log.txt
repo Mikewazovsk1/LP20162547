@@ -1,0 +1,42 @@
+
+nova linha
+1.1
+git config --global user.name M1kewazovsk1
+
+git config --global user.email miguelsousacordeiro@gmail.com
+
+git init git-treino
+Initialized empty Git repository in C:/Users/migue/LP20162547/git-treino/.git/
+
+mkdir git-treino
+
+git init
+
+git remote add origin https://github.com/Mikewazovsk1/LP20162547
+
+1.2
+migue@OverLord MINGW64 ~/LP20162547/git-treino (master)
+$ git clone https://github.com/Mikewazovsk1/python/
+
+migue@OverLord MINGW64 ~/LP20162547/git-treino (master)
+$ cd python
+
+1.3
+migue@OverLord MINGW64 ~/LP20162547/git-treino/python (main)
+$ touch log.txt
+
+Escrevi nova linha
+
+Para sair, Escape e :q!
+
+git push origin main
+
+1.4
+migue@OverLord MINGW64 ~/LP20162547/git-treino/python (main)
+$ git branch nova-feature
+
+migue@OverLord MINGW64 ~/LP20162547/git-treino/python (main)
+$ git checkout nova-feature
+M       log.txt
+Switched to branch 'nova-feature'
+
